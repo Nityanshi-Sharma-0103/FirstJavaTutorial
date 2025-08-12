@@ -1,6 +1,19 @@
 public class First {
     public static void main (String[] args) {
-        int x = 10;
+        int firstVariable = 10;
+        int secondVariable = 20;
+        int total = firstVariable + secondVariable;
+
+
+
+        System.out.println("FirstVariable : " + firstVariable);
+
+
+        System.out.println("secondVariable : " + secondVariable);
+
+
+        System.out.println("total : " + total);
+        firstVariable = 5;
     }
 }
 
